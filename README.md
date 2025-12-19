@@ -1,9 +1,25 @@
-```md
-# CS676 Capstone - Project 1 (Credibility Scoring)
+# Project 1 – Source Credibility Scoring
 
-## What this project does
-Implements a draft credibility scoring function for URLs and a Streamlit app UI to display the score and explanation.
+## Overview
+This project implements a Python-based credibility scoring function that evaluates a URL and returns a structured JSON score and explanation.
 
-Output format:
-```json
-{ "score": 0.0, "explanation": "..." }
+## Functionality
+- Input: URL string
+- Output: JSON object with:
+  - score (float between 0 and 1)
+  - explanation (human-readable)
+
+## How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run tests:
+   python -m pytest
+
+## Project Structure
+- src/ – core scoring logic
+- tests/ – unit tests
+- benchmarks/ – performance testing
+- app/ – demo application
+- reports/ – technical report
+
