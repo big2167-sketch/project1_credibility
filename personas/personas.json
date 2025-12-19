@@ -1,0 +1,35 @@
+{
+  "personas": [
+    {
+      "id": "tech_savvy",
+      "name": "Tech-Savvy Power User",
+      "description": "Uses new features quickly, expects speed and customization, low tolerance for friction.",
+      "traits": {
+        "technical_level": "high",
+        "patience": "low",
+        "goals": ["efficiency", "control", "shortcuts"]
+      }
+    },
+    {
+      "id": "casual_user",
+      "name": "Casual User",
+      "description": "Uses the app occasionally, wants clarity and simple flows, gets confused by advanced options.",
+      "traits": {
+        "technical_level": "low",
+        "patience": "medium",
+        "goals": ["simplicity", "guidance"]
+      }
+    },
+    {
+      "id": "accessibility_needs",
+      "name": "Accessibility Needs User",
+      "description": "Requires accessibility-friendly UI, notices contrast, font size, keyboard navigation, screen reader concerns.",
+      "traits": {
+        "technical_level": "medium",
+        "patience": "medium",
+        "goals": ["accessibility", "predictability"]
+      }
+    }
+  ]
+}
+
